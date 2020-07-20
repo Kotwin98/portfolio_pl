@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router } from "react-router-dom";
+import Menu from './components/layouts/Menu'
+import Main from './components/layouts/Main'
+import Footer from './components/layouts/Footer'
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="container_fluid">
+          <header>{<Menu />}</header>
+          <main>{<Main />}</main>
+          <footer>{<Footer />}</footer>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
