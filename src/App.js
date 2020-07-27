@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
-import Menu from './components/layouts/Menu'
-import Main from './components/layouts/Main'
-import Footer from './components/layouts/Footer'
+import Menu from './components/layouts/Menu';
+import Main from './components/layouts/Main';
+import Footer from './components/layouts/Footer';
+
+import { Container } from "react-bootstrap";
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container_fluid">
-          <header>{<Menu />}</header>
-          <main>{<Main />}</main>
-          <footer>{<Footer />}</footer>
-        </div>
+        <Container>
+          <Menu />
+          <Main />
+          <Footer />
+        </Container>
       </Router>
     );
   }
