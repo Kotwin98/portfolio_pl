@@ -30,7 +30,7 @@
       .footer_link {
         color: $color-text-light;
         &.active {
-          font-weight: bold;
+          font-weight: 600;
         }
       }
       @include tablet-small {
