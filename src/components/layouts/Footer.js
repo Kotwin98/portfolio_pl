@@ -12,20 +12,26 @@ const Footer = () => {
     <footer className="footer">
       <p className="footer_socials">
         &copy;2020{" "}
-        <a href="https://github.com/Kotwin98/portfolio_v2">
+        <a target="_blank" href="https://github.com/Kotwin98/portfolio_v2">
           Mateusz Kotwiński
         </a>
-        <a className="footer_social" href="https://github.com/Kotwin98">
+        <a 
+          className="footer_social"
+          target="_blank" 
+          href="https://github.com/Kotwin98"
+        >
           <FontAwesomeIcon icon={faGithub} />
         </a>
         <a
           className="footer_social"
+          target="_blank"
           href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           className="footer_social footer_social--hidden"
+          target="_blank"
           href="mailto:mkotwinski98@gmail.com"
         >
           <FontAwesomeIcon icon={faEnvelope} />
