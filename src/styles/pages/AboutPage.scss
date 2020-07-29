@@ -2,7 +2,7 @@
 
 .about {
   font-size: $base-size * 1.1;
-  line-height: 1.4;
+  line-height: 1.5;
   position: relative;
   .row {
     justify-content: center;
@@ -25,40 +25,28 @@
   }
   [class*="col-"] {
     margin: 15px 5px;
-    border: 6px solid $color-blue;
-    box-shadow: 10px 10px 20px -8px rgba(17, 17, 17, 0.55);
-    background-color: $color-background;
+    padding: 0;
     @include mobile-large {
-      margin: 20px;
-    }
-    @include tablet-large {
-      padding: 8px 20px;
+      margin: 10px 15px;
     }
   }
   &_title {
-    display: block;
-    width: auto;
-    z-index: 1;
-    background-color: $color-background;
-    font-size: $base-size * 1.3;
+    padding: 8px 10px;
+    color: $color-text;
+    font-size: $base-size * 1.4;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;
-    padding-right: 15px;
-    position: absolute;
-    top: -14px;
-    left: 18px;
-    border-radius: 55px;
+    border-bottom: 6px solid $color-blue;
     @include tablet-large {
-      font-size: $base-size * 1.4;
+      font-size: $base-size * 1.6;
     }
   }
-  &_icon {
-    color: $color-grey;
-    margin-right: 10px;
-  }
   &_text {
-    margin-top: 16px;
+    margin: 10px auto;
+    padding: 20px;
+    border-left: 6px solid $color-blue;
+    border-bottom: 6px solid $color-blue;
+    box-shadow: -13px 13px 20px -11px rgba(17, 17, 17, 0.55);
   }
 }
