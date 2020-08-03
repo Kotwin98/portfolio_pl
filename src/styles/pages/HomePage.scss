@@ -1,14 +1,9 @@
 @import "../global.scss";
 
 .home {
+  @include section;
   @include tablet-small {
     padding: 15px;
-  }
-  &_welcome {
-    @include tablet-large {
-      width: 700px;
-      margin: 0 auto;
-    }
   }
   &_header {
     font-size: $base-size * 1.7;
@@ -24,6 +19,7 @@
     text-align: justify;
     border-left: 6px solid $color-blue;
     border-bottom: 6px solid $color-blue;
+    @include border-shadow;
     @include tablet-large {
       font-size: $base-size * 1.6;
     }
