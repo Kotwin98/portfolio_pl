@@ -1,5 +1,8 @@
 @import "../global.scss";
 
+.header {
+  margin-bottom: 15px;
+}
 .title {
   width: 60%;
   display: flex;
@@ -10,17 +13,20 @@
   padding: 8px 0 8px 8px;
   border-left: 6px solid $color-blue;
   border-bottom: 6px solid $color-blue;
+  z-index: 99;
+  @include mobile-large {
+    width: 100%;
+    position: relative;
+    padding: 8px 0 8px 15px;
+  }
+  @include tablet-large {
+    padding: 8px 0 10px 20px;
+  }
   &_name {
     font-family: $font-header;
     font-size: $base-size * 2;
     letter-spacing: 2px;
     line-height: 1;
-    a {
-        color: $color-text-dark;
-    }
-    a:hover {
-      color: $color-text-dark !important;
-    }
     @include mobile-large {
       font-size: $base-size * 2.2;
     }
@@ -30,6 +36,12 @@
     @include tablet-large {
       font-size: $base-size * 3.2;
       letter-spacing: 4px;
+    }
+    a {
+      color: $color-text-dark;
+    }
+    a:hover {
+      color: $color-text-dark !important;
     }
   }
   &_subtitle {
@@ -58,6 +70,9 @@
     padding: 10px 8px;
     border-top: 6px solid $color-blue;
     border-right: 6px solid $color-blue;
+    @include mobile-large {
+      display: none;
+    }
     .hamburger_line {
       height: 3px;
       width: 28px;
@@ -87,9 +102,6 @@
       &--open {
         transform: translateX(-2px) translateY(-2px) rotate(-45deg);
       }
-    }
-    @include mobile-large {
-      display: none;
     }
   }
   &_social {
@@ -150,7 +162,20 @@
   text-align: right;
   background-color: $color-background;
   box-shadow: 0px 80px 40px -5px rgba(17, 17, 17, 0.6);
+  border-bottom: 6px solid $color-blue;
   transition: $transition;
+  @include mobile-large {
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding: 0;
+    border-bottom: none;
+    transition: none;
+    box-shadow: none;
+  }
+  @include tablet-large {
+    z-index: 0;
+  }
   &_list {
     list-style: none;
     padding: 10px 20px 10px 0;
