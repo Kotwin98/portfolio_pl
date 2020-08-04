@@ -17,12 +17,14 @@ const ContactPage = () => {
             <a
               className="contact_social"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://drive.google.com/open?id=1rf30FVVIhfXmYTAzHpbLHf8V_f_qtpAf"
             >
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://drive.google.com/open?id=1rf30FVVIhfXmYTAzHpbLHf8V_f_qtpAf"
             >
               Curriculum Vitae
@@ -32,6 +34,7 @@ const ContactPage = () => {
             <a
               className="contact_social"
               target="_blank"
+              rel="noopener noreferrer"
               href="mailto:mkotwinski98@gmail.com"
             >
               <FontAwesomeIcon icon={faEnvelope} />
@@ -46,12 +49,14 @@ const ContactPage = () => {
             <a
               className="contact_social"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski/"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski/"
             >
               linkedin.com/in/mateusz-kotwiński
@@ -61,12 +66,14 @@ const ContactPage = () => {
             <a
               className="contact_social"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Kotwin98"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/Kotwin98"
             >
               github.com/Kotwin98

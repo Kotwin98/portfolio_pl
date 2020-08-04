@@ -12,12 +12,17 @@ const Footer = () => {
     <footer className="footer">
       <p className="footer_socials">
         &copy;2020{" "}
-        <a target="_blank" href="https://github.com/Kotwin98/portfolio_v2">
+        <a 
+          target="_blank"
+          href="https://github.com/Kotwin98/portfolio_v2"
+          rel="noopener noreferrer"
+        >
           Mateusz Kotwiński
         </a>
         <a 
           className="footer_social"
           target="_blank" 
+          rel="noopener noreferrer"
           href="https://github.com/Kotwin98"
         >
           <FontAwesomeIcon icon={faGithub} />
@@ -25,6 +30,7 @@ const Footer = () => {
         <a
           className="footer_social"
           target="_blank"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski"
         >
           <FontAwesomeIcon icon={faLinkedin} />
@@ -32,6 +38,7 @@ const Footer = () => {
         <a
           className="footer_social footer_social--hidden"
           target="_blank"
+          rel="noopener noreferrer"
           href="mailto:mkotwinski98@gmail.com"
         >
           <FontAwesomeIcon icon={faEnvelope} />

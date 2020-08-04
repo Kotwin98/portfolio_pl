@@ -26,6 +26,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kotwin98.github.io/portfolio/"
                 >
                   DEMO
@@ -33,6 +34,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/portfolio"
                 >
                   CODE
@@ -65,7 +67,8 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
-                  href="#"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Kotwin98/BlogApp"
                 >
                   CODE
                 </a>
@@ -92,6 +95,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://loving-goldwasser-86b571.netlify.app/#"
                 >
                   DEMO
@@ -99,6 +103,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/project-wdp-1906-04"
                 >
                   CODE
@@ -124,6 +129,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kotwin98.github.io/toDoApp/"
                 >
                   DEMO
@@ -131,6 +137,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/toDoApp"
                 >
                   CODE
@@ -158,6 +165,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kotwin98.github.io/calculator/"
                 >
                   DEMO
@@ -165,6 +173,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/calculator"
                 >
                   CODE
@@ -190,6 +199,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://kotwin98.github.io/weatherApp/"
                 >
                   DEMO
@@ -197,6 +207,7 @@ const PortfolioPage = () => {
                 <a
                   className="portfolio_button"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/weatherApp"
                 >
                   CODE

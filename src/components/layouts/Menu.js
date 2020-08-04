@@ -61,13 +61,25 @@ class Menu extends React.Component {
             ></div>
           </div>
           <div className="title_social">
-            <a target="_blank" href="https://github.com/Kotwin98">
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer"
+              href="https://github.com/Kotwin98"
+            >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski/">
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/mateusz-kotwi%C5%84ski/"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a target="_blank" href="mailto:mkotwinski98@gmail.com">
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer"
+              href="mailto:mkotwinski98@gmail.com"
+            >
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </div>
