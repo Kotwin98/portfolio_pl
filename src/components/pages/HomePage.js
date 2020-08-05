@@ -4,7 +4,7 @@ import "../../styles/pages/HomePage.scss";
 const HomePage = () => {
   return (
     <section className="home">
-      <span className="home_header">Hi!</span>
+      <span className="home_title">Hi!</span>
       <p className="home_text">
         My name is Mateusz Kotwiński.
         About 1,5 years ago I planned to become a Front-end Developer.

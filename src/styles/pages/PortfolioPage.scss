@@ -4,6 +4,7 @@
   @include section;
   &_title {
     @include title;
+    display: inline-block;
   }
   &_projects {
     padding: 24px 0;
