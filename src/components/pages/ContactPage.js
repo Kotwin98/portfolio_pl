@@ -18,14 +18,14 @@ const ContactPage = () => {
               className="contact_social"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/open?id=1rf30FVVIhfXmYTAzHpbLHf8V_f_qtpAf"
+              href="https://drive.google.com/file/d/16NNqPpOHId8ezotfw-iuAAyn12xGTgCz/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/open?id=1rf30FVVIhfXmYTAzHpbLHf8V_f_qtpAf"
+              href="https://drive.google.com/file/d/16NNqPpOHId8ezotfw-iuAAyn12xGTgCz/view?usp=sharing"
             >
               Curriculum Vitae
             </a>

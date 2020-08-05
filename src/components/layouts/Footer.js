@@ -14,7 +14,7 @@ const Footer = () => {
         &copy;2020{" "}
         <a 
           target="_blank"
-          href="https://github.com/Kotwin98/portfolio_v2"
+          href="https://github.com/Kotwin98/portfolio"
           rel="noopener noreferrer"
         >
           Mateusz Kotwiński
