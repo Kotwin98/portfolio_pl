@@ -7,7 +7,7 @@ const HomePage = () => {
       <span className="home_header">Hi!</span>
       <p className="home_text">
         My name is Mateusz Kotwiński.
-        About 18 months ago I planned to become a Front-end Developer.
+        About 1,5 years ago I planned to become a Front-end Developer.
         I finished an intense 9 month long bootcamp with
         help of an expirianced teacher - Bootcamp Web Developer Plus in Kodilla.
         I also finished a few interesting courses on Udemy and I had spend a lot of time studying on my own.
