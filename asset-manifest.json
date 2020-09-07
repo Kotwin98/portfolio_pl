@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio_pl/static/css/main.d5c8b940.chunk.css",
+    "main.js": "/portfolio_pl/static/js/main.96426b32.chunk.js",
+    "main.js.map": "/portfolio_pl/static/js/main.96426b32.chunk.js.map",
+    "runtime-main.js": "/portfolio_pl/static/js/runtime-main.cd57a10c.js",
+    "runtime-main.js.map": "/portfolio_pl/static/js/runtime-main.cd57a10c.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/portfolio_pl/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72c01541.chunk.js": "/portfolio_pl/static/js/2.72c01541.chunk.js",
+    "static/js/2.72c01541.chunk.js.map": "/portfolio_pl/static/js/2.72c01541.chunk.js.map",
+    "index.html": "/portfolio_pl/index.html",
+    "precache-manifest.d938049c9db28ccc82ef2c84fe85598d.js": "/portfolio_pl/precache-manifest.d938049c9db28ccc82ef2c84fe85598d.js",
+    "service-worker.js": "/portfolio_pl/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/portfolio_pl/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d5c8b940.chunk.css.map": "/portfolio_pl/static/css/main.d5c8b940.chunk.css.map",
+    "static/js/2.72c01541.chunk.js.LICENSE.txt": "/portfolio_pl/static/js/2.72c01541.chunk.js.LICENSE.txt",
+    "static/media/Blog-App.png": "/portfolio_pl/static/media/Blog-App.76f8bde9.png",
+    "static/media/Calculator.png": "/portfolio_pl/static/media/Calculator.68a4a02b.png",
+    "static/media/FurnituresShop.png": "/portfolio_pl/static/media/FurnituresShop.7f833602.png",
+    "static/media/Portfolio.png": "/portfolio_pl/static/media/Portfolio.54f39718.png",
+    "static/media/WeatherApp.png": "/portfolio_pl/static/media/WeatherApp.0b1378e7.png",
+    "static/media/toDoApp.png": "/portfolio_pl/static/media/toDoApp.8dd70cd2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd57a10c.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.72c01541.chunk.js",
+    "static/css/main.d5c8b940.chunk.css",
+    "static/js/main.96426b32.chunk.js"
+  ]
+}
