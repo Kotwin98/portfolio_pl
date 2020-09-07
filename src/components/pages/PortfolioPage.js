@@ -11,7 +11,7 @@ import weatherApp from "../../images/portfolio/WeatherApp.png";
 const PortfolioPage = () => {
   return (
     <section className="portfolio">
-      <span className="portfolio_title">Selected projects</span>
+      <span className="portfolio_title">Wybrane projekty</span>
       <div className="portfolio_projects">
         <Row>
           <Col md={6}>
@@ -27,7 +27,7 @@ const PortfolioPage = () => {
                   className="portfolio_button"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://kotwin98.github.io/portfolio/"
+                  href="https://kotwin98.github.io/portfolio_pl/"
                 >
                   DEMO
                 </a>
@@ -35,21 +35,21 @@ const PortfolioPage = () => {
                   className="portfolio_button"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/Kotwin98/portfolio"
+                  href="https://github.com/Kotwin98/portfolio_pl"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              Simple portfolio website done in React with React Router and it also features some small animations{" "}
+              Prosta strona portfolio napisana w React z użyciem React Router i kilku animacji.{" "}
               <strong>
                 Tech stack: HTML | Sass | React | React Router | Npm
               </strong>
             </p>
           </Col>
           <Col md={6}>
-            <span className="portfolio_name">Blog App</span>
+            <span className="portfolio_name">Blog</span>
             <div className="portfolio_wrapper">
               <img
                 src={blogApp}
@@ -70,12 +70,12 @@ const PortfolioPage = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/BlogApp"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              Blog app done with MERN stack. You can easily and posts and see them displayed on the page.{" "}
+              Blog zrobiony z MERN stack. Pozwala na szybkie i łatwe dodawanie postów.{" "}
               <strong>
                 Tech stack: MERN (MongoDB, Express, React, Node.js) | Sass.
               </strong>
@@ -84,7 +84,7 @@ const PortfolioPage = () => {
         </Row>
         <Row>
           <Col md={6}>
-            <span className="portfolio_name">Furniture Store</span>
+            <span className="portfolio_name">Sklep meblowy</span>
             <div className="portfolio_wrapper">
               <img
                 src={furnituresShop}
@@ -106,12 +106,12 @@ const PortfolioPage = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/project-wdp-1906-04"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              Project done in a team with 3 other people. This project was developed for a month as an exercise for working in a group.{" "}
+              Czteroosobowy projekt napisany w ramach Bootcampu Kodilla. Projekt rozwijany był przez miesiąc jako ćwiczenie pracy w grupie.{" "}
               <strong>
                 Tech stack: HTML | Sass | JavaScript.
               </strong>
@@ -140,12 +140,12 @@ const PortfolioPage = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/toDoApp"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              App developed to quickly write and save tasks.{" "}
+              Aplikacja pozwalająca na dodawanie i zapisywanie zadań.{" "}
               <strong>
                 Tech stack: HTML | Sass | RWD | React | Yarn.
               </strong>
@@ -154,7 +154,7 @@ const PortfolioPage = () => {
         </Row>
         <Row>
           <Col md={6}>
-            <span className="portfolio_name">Calculator</span>
+            <span className="portfolio_name">Kalkulator</span>
             <div className="portfolio_wrapper">
               <img
                 src={calculator}
@@ -176,19 +176,19 @@ const PortfolioPage = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/calculator"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              Simple calculator done in JavaScript.{" "}
+              Prosty kalkulator napisany w JavaScript.{" "}
               <strong>
                 Tech stack: HTML | CSS | RWD | JavaScript
               </strong>
             </p>
           </Col>
           <Col md={6}>
-            <span className="portfolio_name">Weather App</span>
+            <span className="portfolio_name">Aplikacja pogodowa</span>
             <div className="portfolio_wrapper">
               <img
                 src={weatherApp}
@@ -210,12 +210,12 @@ const PortfolioPage = () => {
                   rel="noopener noreferrer"
                   href="https://github.com/Kotwin98/weatherApp"
                 >
-                  CODE
+                  KOD
                 </a>
               </div>
             </div>
             <p className="portfolio_desc">
-              App that allows to check weather in any place by writing a city name.{" "}
+              Aplikacja pozwalająca sprawdzić pogodę w dowolnym mieście.{" "}
               <strong>
                 Tech stack: HTML | Sass | API | React | Yarn.
               </strong>

@@ -14,7 +14,7 @@ const Footer = () => {
         &copy;2020{" "}
         <a 
           target="_blank"
-          href="https://github.com/Kotwin98/portfolio"
+          href="https://github.com/Kotwin98/portfolio_pl"
           rel="noopener noreferrer"
         >
           Mateusz Kotwiński
@@ -47,12 +47,12 @@ const Footer = () => {
       <ul className="footer_menu">
         <li>
           <NavLink exact to="/about" className="footer_link">
-            About me
+            O mnie
           </NavLink>
         </li>
         <li>
           <NavLink exact to="/skills" className="footer_link">
-            Skills
+            Umiejętności
           </NavLink>
         </li>
         <li>
@@ -62,7 +62,7 @@ const Footer = () => {
         </li>
         <li>
           <NavLink exact to="/contact" className="footer_link">
-            Contact
+            Kontakt
           </NavLink>
         </li>
       </ul>

@@ -23,10 +23,10 @@ class Menu extends React.Component {
     const { openMenu } = this.state;
     const list = [
       { name: "Start", path: "/", exact: true },
-      { name: "About me", path: "/about" },
-      { name: "Skills", path: "/skills" },
+      { name: "O mnie", path: "/about" },
+      { name: "Umiejętności", path: "/skills" },
       { name: "Portfolio", path: "/portfolio" },
-      { name: "Contact", path: "/contact" }
+      { name: "Kontakt", path: "/contact" }
     ];
     const navigation = list.map(item => (
       <li className="menu_item" key={item.name}>

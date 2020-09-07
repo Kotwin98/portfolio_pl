@@ -10,7 +10,7 @@ import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 const ContactPage = () => {
   return (
     <section className="contact">
-      <span className="contact_title">Contact</span>
+      <span className="contact_title">Kontakt</span>
       <div className="contact_socials">
         <Row>
           <Col md={6}>
@@ -18,14 +18,14 @@ const ContactPage = () => {
               className="contact_social"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/16NNqPpOHId8ezotfw-iuAAyn12xGTgCz/view?usp=sharing"
+              href="https://drive.google.com/file/d/11DTTAKTJ81I6IQodvYcT_2UkpH3BJ8me/view?usp=sharing"
             >
               <FontAwesomeIcon icon={faFilePdf} />
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/16NNqPpOHId8ezotfw-iuAAyn12xGTgCz/view?usp=sharing"
+              href="https://drive.google.com/file/d/11DTTAKTJ81I6IQodvYcT_2UkpH3BJ8me/view?usp=sharing"
             >
               Curriculum Vitae
             </a>

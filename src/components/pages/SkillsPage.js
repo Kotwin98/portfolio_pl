@@ -72,7 +72,7 @@ const SkillsPage = () => {
           </Col>
         </Row>
       </div>
-      <span className="skills_title">Tools and others</span>
+      <span className="skills_title">Narzędzia i inne</span>
       <div className="skills_stack">
         <Row>
           <Col md={4}>

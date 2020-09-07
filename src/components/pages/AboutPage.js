@@ -9,24 +9,26 @@ const AboutPage = () => {
         <Col md={5}>
           <span className="about_title">Start</span>
           <p className="about_text">
-            My first steps with programming started when I acidently found a tutorial for c++ on youtube. It got me so intrested that immidiatly after the video I downloaded CodeBlocks and started writing my first lines of code.
-            For the next few weeks I had been practicing more and getting better at coding. I wanted to try other technologies and than I got interested in front-end.
+            Początek mojego zapoznania się z programowaniem rozpoczął się od przypadkowego znalezienia poradnika c++ na youtube.
+            Poradnik bardzo mnie zaciekawił, więc od razu po obejrzeniu ściągnąłem środowisko CodeBlocks i samemu napisałem kilka linijek kodu.
+            Po czasie chciałem spróbować innych technologii, dlatego zainteresowałem się front-endem.
           </p>
         </Col>
         <Col md={5}>
-          <span className="about_title">Learning</span>
+          <span className="about_title">Nauka</span>
           <p className="about_text">
-            From the start of 2019 I had been learning front-end. I finished an intense 9 month long bootcamp with help of an expirianced teacher - Bootcamp Kodilla Web Developer Plus.
-            In the meantime I done few courses on Udemy such as React - The Complete Guide, The Complete JavaScript Course.
-            Currently I learn alot on my own and I develop my own projects.
+            Od początku 2019 roku systematycznie poszerzam swoją wiedzę na temat front-endu. Ukończyłem intesywny 9-cio miesięczny kurs pod okiem indywidualnego mentora - Bootcamp Kodilla Web Developer Plus.
+            W międzyczasie udało mi się także ukończyć kilka kursów na platformie Udemy m.in. React - The Complete Guide, The Complete JavaScript Course.
+            Aktualnie uczę się bardzo dużo samemu oraz rozwijam swoje projekty używając wcześniej zdobytej wiedzy i nowych rozwiązań które znajduje w internecie.
           </p>
         </Col>
       </Row>
       <Row>
         <Col md={10}>
-          <span className="about_title">Currently</span>
+          <span className="about_title">Aktualnie</span>
           <p className="about_text">
-            Nowadays I am looking for a job or an internship as Junior Front-end Developer. I learn very fast so I am also ready to take other positions with technologies diffrent than I know.
+            Obecnie szukam pracy lub stażu w IT jako Junior Front-end Developer.
+            Bardzo szybko się uczę dlatego, jestem też gotów podjąć inne stanowiska używające innych technologii, niż te które mi są obecnie znane. 
           </p>
         </Col>
       </Row>
